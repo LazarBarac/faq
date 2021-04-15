@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+
+<body>
+  <div class="kontejner">
+    <div class="kontejnerZaZenu">
+      <img src="file:///C:/Users/Lazar/Desktop/Frontend%20mentor/1.%20Noob/2.1.%20faq-accordion-card-main%20-%20drugi%20put/images/illustration-woman-online-desktop.svg" alt="Slika Zene" class="slikaZene">
+      <img src="file:///C:/Users/Lazar/Desktop/Frontend%20mentor/1.%20Noob/2.1.%20faq-accordion-card-main%20-%20drugi%20put/images/illustration-box-desktop.svg" alt="Slika Kutije" class="slikaKutije">
+    </div>
+    <div id="kontejnerZaPitanja" class="kontejnerZaPitanja">
+      <h2 class="naslovFAQ">FAQ</h2>
+      <div class="poljeZaPitanje">
+        <div id="pitanje1" class="pitanje">
+          <p id="tekstPitanja1" class="tekstPitanja">How many team members can I invite?</p>
+          <img onclick= "prikaziPitanje(tekstPitanja1, odgovor1)" src="file:///C:/Users/Lazar/Desktop/Frontend%20mentor/1.%20Noob/2.1.%20faq-accordion-card-main%20-%20drugi%20put/images/icon-arrow-down.svg" alt="Strelica" class="strelica">
+        </div>
+        <p id="odgovor1" class="odgovor">As much as you want.</p>
+      </div>
+      <div class="poljeZaPitanje">
+        <div id="pitanje2" class="pitanje">
+          <p id="tekstPitanja2" class="tekstPitanja">What is the maximum file upload size?</p>
+          <img onclick= "prikaziPitanje(tekstPitanja2, odgovor2)" src="file:///C:/Users/Lazar/Desktop/Frontend%20mentor/1.%20Noob/2.1.%20faq-accordion-card-main%20-%20drugi%20put/images/icon-arrow-down.svg" alt="Strelica" class="strelica">
+        </div>
+        <p id="odgovor2" class="odgovor">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      </div>
+      <div class="poljeZaPitanje">
+        <div id="pitanje3" class="pitanje">
+          <p id="tekstPitanja3" class="tekstPitanja">How do I reset my password?</p>
+          <img onclick= "prikaziPitanje(tekstPitanja3, odgovor3)" src="file:///C:/Users/Lazar/Desktop/Frontend%20mentor/1.%20Noob/2.1.%20faq-accordion-card-main%20-%20drugi%20put/images/icon-arrow-down.svg" alt="Strelica" class="strelica">
+        </div>
+        <p id="odgovor3" class="odgovor">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+      </div>
+      <div class="poljeZaPitanje">
+        <div id="pitanje4" class="pitanje">
+          <p id="tekstPitanja4" class="tekstPitanja">Can I cancel my subscription?</p>
+          <img onclick= "prikaziPitanje(tekstPitanja4, odgovor4)" src="file:///C:/Users/Lazar/Desktop/Frontend%20mentor/1.%20Noob/2.1.%20faq-accordion-card-main%20-%20drugi%20put/images/icon-arrow-down.svg" alt="Strelica" class="strelica">
+        </div>
+        <p id="odgovor4" class="odgovor">Yes! Send us a message and we’ll process your request no questions asked.</p>
+      </div>
+      <div class="poljeZaPitanje">
+        <div id="pitanje5" class="pitanje">
+          <p id="tekstPitanja5" class="tekstPitanja">Do you provide additional support?</p>
+          <img onclick= "prikaziPitanje(tekstPitanja5, odgovor5)" src="file:///C:/Users/Lazar/Desktop/Frontend%20mentor/1.%20Noob/2.1.%20faq-accordion-card-main%20-%20drugi%20put/images/icon-arrow-down.svg" alt="Strelica" class="strelica">
+        </div>
+        <p id="odgovor5" class="odgovor">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+      </div>
+  
+    </div>
+  
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

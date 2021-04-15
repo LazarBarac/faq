@@ -1,0 +1,112 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    min-height: 100vh;
+}
+
+.kontejner{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.kontejnerZaZenu{
+    width: 40%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: block;
+}
+.slikaZene{
+    width:95%;
+    margin-left: -17%;
+}
+.slikaKutije{
+    width:40%;
+    margin-left: -99%;
+    margin-bottom: 8%;
+}
+
+.kontejnerZaPitanja{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 60%;
+    margin-right: 75px;
+}
+
+.poljeZaPitanje{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pitanje{
+    display: flex;
+    color: gray;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 0.3px solid grey;
+}
+
+.strelica{
+    height: 10px;
+}
+
+.odgovor{
+    display: none;
+}
+
+@media (max-width:800px){
+    body{
+        justify-content: center;
+    }
+
+    .kontejner{
+        width: 90%;
+        display: flex;
+        margin-top: 40%;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        align-content: center;
+        background-image: url(file:///C:/Users/Lazar/Desktop/Frontend%20mentor/faq-accordion-card-main/images/bg-pattern-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 42% -3%;
+    }
+
+    .kontejnerZaPitanja{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .kontejnerZaZenu{
+        margin: auto;
+        margin-top:-40%;
+        padding-top: 2%;
+        width: 90%;
+        justify-self: center;
+        padding-left: 12px;
+    }
+    .naslovFAQ{
+        text-align: center;
+        padding-top: 20%;
+    }
+
+    .slikaZene{
+        margin:0;
+        
+    }
+    .zena{
+        width: 220px;
+    }
+}
